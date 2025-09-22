@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{02EA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{EBB5CB98-E17E-41CD-869F-188DE09D3311}"
 	ProjectSection(SolutionItems) = preProject
-		.github\workflows\commit-stage-monolith-csharp.yaml = .github\workflows\commit-stage-monolith-csharp.yaml
+		.github\workflows\commit-stage-monolith-dotnet.yaml = .github\workflows\commit-stage-monolith-dotnet.yaml
 	EndProjectSection
 EndProject
 Global
