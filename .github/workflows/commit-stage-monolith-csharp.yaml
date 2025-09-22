@@ -3,24 +3,14 @@ name: commit-stage-monolith-csharp
 on:
   push:
     branches: [ "main" ]
-    paths:
-        - 'system/monolith/csharp/**'
-        - '.github/workflows/commit-stage-monolith-csharp.yml'
   pull_request:
     branches: [ "main" ]
-    paths:
-        - 'system/monolith/csharp/**'
-        - '.github/workflows/commit-stage-monolith-csharp.yml'
   workflow_dispatch:
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
-
-    defaults:
-      run:
-        working-directory: system/monolith/csharp
 
     steps:
 
