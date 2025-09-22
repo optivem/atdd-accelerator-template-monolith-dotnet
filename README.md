@@ -1,4 +1,4 @@
-# System - Monolith (C#)
+# ATDD Accelerator Template - Monolith (.NET)
 
 ## Instructions
 
