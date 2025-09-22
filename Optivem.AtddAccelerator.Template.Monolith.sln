@@ -5,6 +5,13 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optivem.AtddAccelerator.Template.Monolith", "Optivem.AtddAccelerator.Template.Monolith.csproj", "{F1DC39E7-C85A-45CE-865F-14001F9127D6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{EBB5CB98-E17E-41CD-869F-188DE09D3311}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\commit-stage-monolith-csharp.yaml = .github\workflows\commit-stage-monolith-csharp.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EBB5CB98-E17E-41CD-869F-188DE09D3311} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {59E4F5BC-8900-438F-960F-4FB115AF2018}
