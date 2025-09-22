@@ -1,2 +1,11 @@
-# atdd-accelerator-template-monolith-dotnet
-ATDD Accelerator Template - Monolith (.NET)
+# System - Monolith (C#)
+
+## Instructions
+
+Ensure you have .NET 6
+
+To build the project:
+
+```shell
+dotnet build
+```
